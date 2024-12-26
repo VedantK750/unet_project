@@ -146,17 +146,3 @@ for epoch in range(num_epochs):
     visualize_inference(test_loader, model, device, num_images=3)
 
 
-
-# # Iterate through training DataLoader
-# print("Training DataLoader:")
-# for images, labels in train_loader:
-#     print("Image batch shape:", images.shape)
-#     print("Label batch shape:", labels.shape)
-#     break
-
-# # Iterate through testing DataLoader
-# print("\nTesting DataLoader:")
-# for images, labels in test_loader:
-#     print("Image batch shape:", images.shape)
-#     print("Label batch shape:", labels.shape)
-#     break
